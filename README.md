@@ -1,5 +1,4 @@
 # Funcionalidades_Proyecto
- 1 Apartado de noticias
-
+ #Index
 
 AL EJECUTAR, BORRAR ARCHIVO DE INFORME 
