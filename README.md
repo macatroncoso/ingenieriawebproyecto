@@ -1,11 +1,5 @@
-# ingenieriawebproyecto 
-Macarena Troncoso
-
-
-Ricardo Aguilera 
-
-
-Marlene Lagos 
+# Funcionalidades_Proyecto
+ 
 
 
 AL EJECUTAR, BORRAR ARCHIVO DE INFORME 
