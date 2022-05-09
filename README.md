@@ -51,4 +51,7 @@ Interfaz situación actual
 -Se mostrará un artículo el cual enseñe la situación actual con respecto a la contaminación y cambio climático en el mundo.
 
 
-AL EJECUTAR, BORRAR ARCHIVO DE INFORME 
+LINK FIGMA
+https://www.figma.com/file/kK4TlUucpmOXy1cnzbIQpH/Untitled?node-id=0%3A1
+
+
