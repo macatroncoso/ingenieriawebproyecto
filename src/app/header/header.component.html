@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg navbar-light mb-5" style="background: yellowgreen">
+  
+    <div class="container-fluid d-flex">
+  
+        <a [routerLink]="['/']" routerLinkActive="router-link-active" class="navbar-brand me-5 text-white fs-1 ps-5">Tree Hugger Web</a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+  
+            <ul class="navbar-nav mb-2 mb-lg-0" *ngIf="infoUsuario.sesion;else nosesion">
+  
+                <li class="nav-item">
+                    <a [routerLink]="['/consejos']" routerLinkActive="router-link-active" class="nav-link" >Consejos</a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/situacion-actual']" routerLinkActive="router-link-active"  class="nav-link">Situación Actual</a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/noticias']" routerLinkActive="router-link-active"  class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/sobre-nosotros']" routerLinkActive="router-link-active"  class="nav-link">Sobre Nosotros</a> 
+                </li>
+
+                    <li class="nav-item">
+                        <a [routerLink]="['/cuenta']" routerLinkActive="router-link-active"  class="nav-link">Cuenta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a [routerLink]="['/home']" routerLinkActive="router-link-active"  class="nav-link">Cerrar Sesion</a>
+                    </li>
+
+            
+            </ul>
+
+            <ng-template #nosesion>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a [routerLink]="['/consejos']" routerLinkActive="router-link-active" class="nav-link" >Consejos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a [routerLink]="['/situacion-actual']" routerLinkActive="router-link-active"  class="nav-link">Situación Actual</a>
+                    </li>
+                    <li class="nav-item">
+                        <a [routerLink]="['/noticias']" routerLinkActive="router-link-active"  class="nav-link" href="Noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a [routerLink]="['/sobre-nosotros']" routerLinkActive="router-link-active"  class="nav-link">Sobre Nosotros</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a [routerLink]="['/login']" routerLinkActive="router-link-active"  class="nav-link">Iniciar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a [routerLink]="['/registro']" routerLinkActive="router-link-active"  class="nav-link">Registrarse</a>
+                    </li>
+                </ul>
+
+            </ng-template>
+  
+        </div>
+  
+    </div>
+</nav>

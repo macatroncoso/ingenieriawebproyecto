@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Juanito Perez",
+        "correo": "juanito123@gmail.com",
+        "password": "juanito123",
+        "sesion": "false",
+        "nivel": "5",
+        "puntos": "98"
+    },
+    {
+        "nombre": "Carolina Arcos",
+        "correo": "carolina.a@gmail.com",
+        "password": "gatito8899",
+        "sesion": "false",
+        "nivel": "7",
+        "puntos": "122"
+    },
+    {
+        "nombre": "Jose Luis Pascal",
+        "correo": "jositopascualito@gmail.com",
+        "password": "feliznavidad",
+        "sesion": "false",
+        "nivel": "2",
+        "puntos": "7"
+    },
+    {
+        "nombre": "Emma Guerra",
+        "correo": "emg123@hotmail.com",
+        "password": "gatitos12345",
+        "sesion": "false",
+        "nivel": "22",
+        "puntos": "236"
+    },
+    {
+        "nombre": "Gertrudis Ramirez",
+        "correo": "ger.ramirez@gmail.com",
+        "password": "maria2856",
+        "sesion": "false",
+        "nivel": "14",
+        "puntos": "156"
+    }
+]

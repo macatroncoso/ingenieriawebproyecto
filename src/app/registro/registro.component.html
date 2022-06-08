@@ -1,0 +1,37 @@
+<div class="registro">
+    <form class="custom-form" method="post">
+      <h1>Registro</h1>
+      <input
+        type="nombre"
+        [(ngModel)]="nombre"
+        name="nombre"
+        placeholder="Nombre de usuario"
+        required="required"
+      />
+      <input
+        type="email"
+        [(ngModel)]="correo"
+        name="email"
+        placeholder="Correo electronico"
+        required="required"
+      />
+      <input
+        type="password"
+        [(ngModel)]="password"
+        name="password"
+        placeholder="Contraseña"
+        required="required"
+      />
+      <input
+        type="password"
+        [(ngModel)]="confirmPassword"
+        name="password"
+        placeholder="Comprobar contraseña"
+        required="required"
+      />
+      <button type="submit" (click)="register()">Registrarse</button>
+    </form>
+    <div class="Sesion">
+      <a [routerLink]="['/login']" routerLinkActive="router-link-active" class="nav-link" >¿Ya tienes una cuenta? Inicia Sesión</a>
+    </div>
+  </div>
