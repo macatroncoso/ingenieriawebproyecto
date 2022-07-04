@@ -14,6 +14,7 @@ import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.componen
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { RegistroComponent } from './registro/registro.component';
+import { BotDetectCaptchaModule } from 'angular-captcha';
 
 
 @NgModule({
@@ -33,7 +34,10 @@ import { RegistroComponent } from './registro/registro.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BotDetectCaptchaModule.forRoot({
+      captchaEndpoint: 'captcha-endpoint/botdetectcaptcha'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

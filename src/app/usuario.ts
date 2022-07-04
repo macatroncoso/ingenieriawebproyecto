@@ -1,32 +1,29 @@
-export class Usuario {
-    nombre: string;
-    correo: string;
-    password: string;
-    sesion: boolean;
-    nivel: number;
-    puntos: number;
 
-    constructor(){
-       this.nombre="";
-       this.correo="";
-       this.password="";
-       this.sesion=false;
-       this.nivel=0;
-       this.puntos=0;
+export class Usuario {
+    username: string;
+    first_name: string;
+    last_name: string;
+    email: string;
+    password: string;
+    password2:string;
+
+    constructor(nuevoNombreUsuario:string,nuevoNombre:string,nuevoApellido:string, nuevoCorreo:string , nuevaPassword : string, nuevaPassword2 : string){
+      this.username=nuevoNombreUsuario;
+        this.first_name=nuevoNombre;
+        this.last_name=nuevoApellido;
+        this.email=nuevoCorreo;
+        this.password=nuevaPassword;
+        this.password2= nuevaPassword2;
     }
 
-    crearUsuario(nuevoNombre:string, nuevoCorreo:string , nuevaPassword : string, nuevaSesion: boolean, nivel: number, puntos:number){
+    /*crearUsuario(nuevoNombreUsuario:string,nuevoNombre:string,nuevoApellido:string, nuevoCorreo:string , nuevaPassword : string, nuevaPassword2 : string){
+        this.nombreUsuario=nuevoNombreUsuario;
         this.nombre=nuevoNombre;
+        this.apellido=nuevoApellido;
         this.correo=nuevoCorreo;
         this.password=nuevaPassword;
-        this.sesion=nuevaSesion;
-        this.nivel=nivel;
-        this.puntos=puntos;
-    }
+        this.password2= nuevaPassword2;
+
+    }*/
 
 }
-
-var arreglo: Usuario[];
-
-
-

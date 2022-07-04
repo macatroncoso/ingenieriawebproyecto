@@ -10,8 +10,8 @@ import { Usuario } from '../usuario';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  infoUsuario: Usuario= new Usuario();
-  
+  sesion: boolean=false;
+
   constructor() { }
 
   ngOnInit(): void {

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { startSession } from 'mongoose';
 import { SituacionActualComponent } from '../situacion-actual/situacion-actual.component';
-import { Usuario } from '../usuario';
+import { SesionService } from '../services/sesion.service';
+import { User } from '../user';
 
 @Component({
   selector: 'app-login',
@@ -14,8 +16,10 @@ export class LoginComponent implements OnInit {
   constructor() {}
 
   login() {
-    console.log(this.email);
-    console.log(this.password);
+     let nuevo: User;
+     nuevo = new User(this.email,this.password);
+
+     console.log(nuevo);
   }
   ngOnInit(): void {
 

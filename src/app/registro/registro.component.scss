@@ -2,8 +2,11 @@
     box-sizing: border-box;
   }
   html,
-  .registro{
+
+  .body{
     background-image: url("../../assets/fondo.jpeg");
+    text-align: center;
+    position: relative;
   }
   
   h1 {
