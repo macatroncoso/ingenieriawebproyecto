@@ -1,4 +1,15 @@
-# Entrega3
+Entrega final
+
+1 - instalar python https://www.python.org/
+2 - abrir la terminal en la carpeta del proyecto y crear el entorno virtual (python -m venv .env)
+3 - Activar el entorno virtual  => .env\Scripts\activate.bat
+4 - instalar django y djangorestframework => pip install Django djangorestframework
+5- instalar => pip install django-cors-headers
+6 - correr el servidor de desarrollo local=> python Backend-Django\manage.py runserver (el servidor correra en http://localhost:8000 o http://127.0.0.1:8000)
+7 - abrir postman y probar los diferentes endpoints
+8 - login y registro de usuario (http://localhost:8000/api/auth/login/, http://localhost:8000/api/auth/register/ ambos son peticiones POST)
+
+funciones de admin disponibles mediante prueba en postman 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
